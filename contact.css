@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+body
+{
+   /* background-color: #47c35a; */
+    background-image: url("https://th.bing.com/th/id/R.73d271c659cb4f2baa28da5ae76c6f74?rik=VeRcM%2fRCPqj93A&riu=http%3a%2f%2fcdn.theconversation.com%2ffiles%2f110364%2fwidth1356x668%2fimage-20160204-3020-15num85.jpg&ehk=NeKOvNTZ805XOMPvN8UULJO5KTJIHzt7IYFl0Z8sy78%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+    image-orientation: from-image;
+    font-family: sans-serif;
+}
+.contact-box
+{
+    width: 500px;
+    /* background-image: url("https://images.hdqwalls.com/download/clouds-hd-3840x2160.jpg"); */
+    box-shadow: 0 0 20 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+form
+{
+    margin: 35px;
+}
+.input-field
+{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+.textarea-field
+{
+    height: 150px;
+    padding-top: 10px;
+}
+.btn
+{
+    border-radius:20px;
+    color: rgb(169, 169, 161);
+    margin-top: 10px;
+    background-color: #6d6868;
+    background-size: 40px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+h1
+{
+ color:rgbrgb(101, 62, 62);
+ align: center;
+ text-shadow: #db3434;
+
+}

@@ -1,0 +1,107 @@
+/* Set the font family and background color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://th.bing.com/th/id/R.0297d0c95f5f4e0827a4914d28257542?rik=Q%2fia1%2fCt4syWEA&riu=http%3a%2f%2fdata.1freewallpapers.com%2fdownload%2fnature-city-landscape-reflection-fog-national-geographic-ultrahd-4k-android-1280x960.jpg&ehk=kyufLwV2XMFgY2VHNfrpejVERAvJjLMU01UVIRJu3yQ%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  /* Style the header */
+  header {
+    background-image: url('https://www.wishusucess.com/wp-content/uploads/2020/05/LPU-University.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(23, 23, 23);
+    text-align: center;
+    padding: 1px;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: #0c0b0b;
+    border: 1px solid #ffffff;
+    
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #fff;
+    background-color: #333;
+  }
+  
+  /* Style the main content */
+  main {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #1b1a1a;
+    color: #fff;
+    border-radius: 5px;
+    /* background-color: #fff; */
+    background-image: url("https://i.pinimg.com/originals/d2/b2/6f/d2b26fe0d61c6f71d0a458c3800a245f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #df4949;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+   .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:1.5rem;
+}
+
+ .box-container .box{
+    border-radius: .5rem;
+    background:#333;
+    text-align: center;
+    padding:2.5rem;
+}
+
+.box-container .box i{
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    background:var(--main-color);
+    color:#fff;
+}
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    /* padding-left: 10px; */
+    /* padding-right: 1500px; */
+    /* background-position-x:; */
+  }
+  
+  

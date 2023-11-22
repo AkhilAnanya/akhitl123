@@ -1,0 +1,137 @@
+*{ 
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+html,body{ 
+    height:100%;
+    width: 100%;  
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    background-image: url("https://th.bing.com/th/id/R.0dd6a3b0fec8ed612c47a180769c0bc4?rik=jg7Cn2nopHWnFQ&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2014%2f10%2fnature%2fDusk_in_Village_Landscape.jpg&ehk=j8O9W1%2bh1JDesImMC60Beb40o7Za0%2bJw4f3fRtDdV9g%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background:linear-gradient(to right, azure , #c9d6ff); */
+}
+#container1{     
+    background-color:white;
+    border-radius:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.35);
+    position:relative;
+    overflow:hidden;
+    height:450px;
+    max-width:100%;
+    max-height:100%;
+    min-height:450px;
+    min-width:700px;   
+    display:flex;
+}
+#login{ 
+    width:55%; 
+    
+}
+#message{ 
+    width:45%;
+    background-color:#6ca5aa;
+    text-align:center;
+    padding:180px 0;
+}
+.message h1{ 
+    font-size: 38px;    
+    margin-bottom:8px;
+    font-weight:2000px;
+}
+.message p{ 
+    font-weight: 670px;
+}
+
+#container1 p { 
+    font-size:15px;
+}
+#container1 a{ 
+    font-size:16px;
+    color:grey;
+    text-decoration:none;
+    margin:15px 0 10px;
+}
+#container1 button{ 
+    color:white;
+    font-size:15px;
+    font-weight:1000px;
+    border-radius:12px;
+    border:2.3px solid black; 
+    background-color:rgb(217, 78, 78);
+    padding:9px 30px;
+    text-transform:uppercase;
+    margin-top:10px;
+    cursor:pointer;
+    transition:all ease 1s;
+
+}
+#container1 button a{ 
+    color:white;
+}
+
+#container1 button:hover{
+    scale:1.15;
+}
+
+.container1 form{
+    background-color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding:0 40px;
+    height:100%;
+}
+.container1 form span{  
+    margin-bottom:20px;  
+    margin-top:10px;
+    font-size :18px;
+}
+.container1 form h1{ 
+    font-size: 50px;
+}
+.container1 form h4 { 
+    margin-top:30px;
+    font-family: Arial; 
+    font-size:12px;
+}
+.container1 input{ 
+    font-size: 15px;
+    background-color:white;
+    padding: 10px 15px;
+    margin:8px 0;
+    border-radius:8px;
+    outline:none;
+    width:100%;
+
+}
+.forsignup{ 
+    display:flex;
+    flex-direction:row;
+}
+
+.forsignup p{ 
+    margin-top:6px;
+    font-weight:700px;
+    font-size:5px;
+    color:black;
+    font-weight:bold;
+}
+
+#forsignup a{
+    color:#6ca5aa;
+    margin-top: 6px;
+    padding-left:5px;
+    font-weight: 900px;
+    font-size:13px; 
+    text-decoration-line: underline;
+    text-decoration-color:#c9d6ff;
+    text-decoration-thickness: 1px;
+}
+
+

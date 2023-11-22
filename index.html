@@ -1,0 +1,192 @@
+<html>
+    <head>
+    <title>Urbanization and Its Environmental Challenges</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="che110.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <style> .AKHIL{ 
+        display: flex;
+    }
+    .author{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        padding: 10px;
+        width: 500px;
+        align-self: center;
+       
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .author img {
+        width: 100px;
+        height: 80px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .author h2 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .author p {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    </style>
+</head>
+<body>
+    
+	<header>
+		<h1>Urbanization and Its Environmental Challenges.</h1>
+	<h4>BY: AKHIL R---NISHITHA A---SURYADEV</h4>
+    <h4>SUBMITTED TO:DR. SHIKHA MA'AM</h4>
+    </header>
+	<nav>
+		<ul>
+            <li><a href="#introduction">1. INTRODUCTION</a></li>
+			<li><a href="#METHODS">2. METHODS:
+            </a></li>
+			<li><a href="#sustainable">3. CHALLENGES OF ENVIRONMENT:
+            </a></li>
+			<li><a href="#impact">4. IMPACT:</a></li>
+			<li><a href="#challenges">5. CHALLENGES OF URBANIZATION:</a></li>
+            <a href="contact.html">6. CONTACT TO KNOW MORE:</a>
+            <a href="signin.html">>>>>SIGNIN</a>
+            <a href="signup.html">>>>>SIGNUP</a>
+            
+		</ul>
+	</nav>
+	<main>
+        <section id="INTRODUCTION">
+			<h2>Introduction of Urbanization and Its Environmental Challenges:
+            </h2>
+            <h4>Urbanization:</h4>
+	urbanization is the process by which an increasing preparation of a population comes ot live in towns and cities. 
+    It involves the growth and expansion of urban areas, often accomapained by the migration of people from rural to urban areas in search of better 
+    econamic opportunities , improved living standards and acces to services.
+    <h4>Introduction:</h4>
+    Introduction:
+	Histrically, urbanization has been a key aspect of societal development , closely tied to industrialization and economic progress. as more
+     people move to urban centers , cities evolve into hubs of economic , cultural , 
+    nad social activities. However this transformative process brings with it a set of environmental challenges that demand attention and solutions.
+
+		<section id="METHODS">
+			<h2>Materials and Methods of Urbanization:
+            </h2>
+			<p>
+
+                <p><h4>Concrete and Steel</h4> Construction: Dominant materials in urban infrastructure like buildings and bridges.</p>
+               <p> <h4>Asphalt and Pavement:</h4>Used for road construction in urban areas.</p>
+               <p><h4> Brick and Mortar:</h4> Common materials in residential and commercial construction.</p>
+                <p><h4>Urban Planning:</h4> Organized development of cities with zoning and land use regulations.</p>
+                <p><h4>Population Migration:</h4> Movement of people from rural to urban areas.</p>
+                </p>
+		</section>
+		<section id="sustainable">
+			<h2>Environmental Challenges:
+            </h2>
+			<p><h4>Pollution:</h4>Emissions from vehicles, industries, and construction activities degrade air quality.</p>
+			<p><h4>Water Pollution:</h4>Runoff from impermeable surfaces carries pollutants into water bodies.</p>
+			<p><h4>Noise Pollution:</h4>Increased urban activit ies contribute to higher noise levels.</p>
+			<p><h4>Land Degradation:</h4>Conversion of natural landscapes into built environments.</p>
+			<p><h4>Land Degradation:</h4>Conversion of natural landscapes into built environments.</p>
+           <p><h4>Resource Depletion:</h4>High demand for water, energy, and raw materials in urban areas.</p>
+		</section>
+		<section id="impact">
+			<h2>Impact of Urbanization on the Environment</h2>
+			<p>Urbanization can have a significant impact on the environment, including increased greenhouse gas emissions, deforestation, 
+                and loss of biodiversity. It's important to take steps to mitigate these impacts and promote sustainable urban development.</p>
+		</section>
+	
+    <section id="challenges">
+        <h2>Challenges of Urbanization</h2>
+        <p>Urbanization is a process by which more and more people move from rural areas or countryside to urban areas such as cities and towns, leading to th
+            e expansion and growth of cities and towns. While urbanization has occurred in the past, 
+            it is currently happening on a global scale as resources and facilities tend to
+             concentrate more in cities and towns. At present, half of the worldwide population is living in cities, and by 2050, this number
+              will increase to two-thirds of the world’s population.</p>
+        
+    </section>
+</main>
+<h2>TOP 10 population of  THE WORLD.</h2>
+<h6>*AS PER Data based on the latest United Nations Population Division estimates.</h6>
+<a href="https://www.worldometers.info/world-population/population-by-country/">Click here to view the source.</a>
+<canvas id="myChart"></canvas>
+     <script> 
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['INDIA', 'CHINA', 'UNITED STATES','INDONESIA','PAKISTAN','NIGERIA','BRAZIL','BANGLADESH','RUSSIA','MESICO'],
+                datasets: [{
+                    label: 'TOP 10 POPULATION THE WORLD.',
+                    data: [1428627663, 1425671352, 339996563, 277534122, 240485658, 223804632, 216422446, 172954319, 144444359, 128455567],
+                    backgroundColor: [
+                        'rgba(25 5, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(25 5, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(25 5, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(25 5, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(25 5, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)'
+                    ],
+                    borderWidth: 4
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+    </script> 
+    
+    <div class="AKHIL">
+        
+        <div class="author">
+		    <img src="A:\Pictures\Saved Pictures\IMG_20231106_222140.jpg" alt="Author 1">
+		    <h2>AKHIL R (12306822)</h2>
+		    <p>K23DT</p>
+	    </div>
+	    <div class="author">
+		    <img src="https://ums.lpu.in/lpuums/DisplayImageForPowerBi.aspx?id=fbf90128-cabd-466b-88d8-541ba6a87e08" alt="Author 2">
+		    <h2>NISHITHA A</h2>
+		    <p>K23DT</p>
+	    </div>
+	    <div class="author">
+		    <img src="https://ums.lpu.in/lpuums/DisplayImageForPowerBi.aspx?id=71b9f7f6-0c18-4f2c-b5a2-46001d2be526">
+		    <h2>SURYADEV</h2>
+		    <p>K23DT</p>
+	    </div>
+    </div>
+</body>
+<footer>
+    <p>© 2023 AKHIL-NISHITHA-SURYADEV </p>
+</footer>
+</html>
